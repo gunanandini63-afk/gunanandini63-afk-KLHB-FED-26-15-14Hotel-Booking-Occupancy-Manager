@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class HotelBookingManager {
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int totalRooms = 10;
+        int bookedRooms = 0;
+        System.out.println("===== HOTEL BOOKING & OCCUPANCY MANAGER =====");
+        System.out.print("Enter guest name: ");
+        String name = sc.nextLine();
+        System.out.print("Enter number of rooms to book: ");
+        int rooms = sc.nextInt();
+        if (rooms <= (totalRooms - bookedRooms)) {
+            bookedRooms += rooms;
+            System.out.println("\nBooking Successful!");
+            System.out.println("Guest Name: " + name);
+            System.out.println("Rooms Booked: " + rooms);
+        } else {
+            System.out.println("\nSorry! Not enough rooms available.");
+        }
+    }
+}
