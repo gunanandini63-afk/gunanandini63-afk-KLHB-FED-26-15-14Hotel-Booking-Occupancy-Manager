@@ -1,12 +1,21 @@
 PBL SEM -I PROJECT ABSTRACT
+
 Department FED
+
 Subject PSPJ (Problem Solving Using Java)
+
 Academic Year I-I Semester (2026-27)
+
 Faculty Name Dr. K. Sreeram Murthy
+
 Student Name K. Guna Nandini P. Rithwik Varma
+
 Roll Number 2620030427 2620090121
+
 Contact Number 6383144580
+
 Branch CSE-Section 15 CS&IT-Section 15
+
 Course Outcome
 
 • Keywords : Hotel management software, Room reservation system, Occupancy tracking, Cancellations
